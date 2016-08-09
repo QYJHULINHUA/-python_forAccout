@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34D874BD75615ACCDAF32BAD /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B4EEBB3A079CE00107C43FC /* libPods.a */; };
+		9D5D398B1D5872EC00AE15D8 /* IHFRetrievePassword.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D398A1D5872EC00AE15D8 /* IHFRetrievePassword.m */; };
+		9D5D398F1D588ADA00AE15D8 /* IHFAccountData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D398E1D588ADA00AE15D8 /* IHFAccountData.m */; };
+		9D5DDEC61D5040900099A4B1 /* esCreateTexture.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEA81D50408F0099A4B1 /* esCreateTexture.c */; };
+		9D5DDEC71D5040900099A4B1 /* esShader.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEAA1D50408F0099A4B1 /* esShader.c */; };
+		9D5DDEC81D5040900099A4B1 /* esShapes.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEAC1D50408F0099A4B1 /* esShapes.c */; };
+		9D5DDEC91D5040900099A4B1 /* esSharpener.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEAD1D50408F0099A4B1 /* esSharpener.c */; };
+		9D5DDECA1D5040900099A4B1 /* esTransform.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEAF1D5040900099A4B1 /* esTransform.c */; };
+		9D5DDECB1D5040900099A4B1 /* esUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEB01D5040900099A4B1 /* esUtil.c */; };
+		9D5DDECC1D5040900099A4B1 /* Simple_Texture2D.c in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEB31D5040900099A4B1 /* Simple_Texture2D.c */; };
+		9D5DDECD1D5040900099A4B1 /* FileWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEB71D5040900099A4B1 /* FileWrapper.m */; };
+		9D5DDECE1D5040900099A4B1 /* GLES_ImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEB91D5040900099A4B1 /* GLES_ImageData.m */; };
+		9D5DDECF1D5040900099A4B1 /* IHFGLESTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEBB1D5040900099A4B1 /* IHFGLESTools.m */; };
+		9D5DDED01D5040900099A4B1 /* IHFLinearMeasureVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEBD1D5040900099A4B1 /* IHFLinearMeasureVIew.m */; };
+		9D5DDED11D5040900099A4B1 /* IHFMyGLKViewController+instance.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEBF1D5040900099A4B1 /* IHFMyGLKViewController+instance.m */; };
+		9D5DDED21D5040900099A4B1 /* IHFMyGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEC11D5040900099A4B1 /* IHFMyGLKViewController.m */; };
+		9D5DDED31D5040900099A4B1 /* UIView+HierarchySupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEC31D5040900099A4B1 /* UIView+HierarchySupport.m */; };
+		9D5DDED41D5040900099A4B1 /* UIViewController+selfManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEC51D5040900099A4B1 /* UIViewController+selfManager.m */; };
+		9D5DDED71D5044C30099A4B1 /* IHFMAccountData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDED61D5044C30099A4B1 /* IHFMAccountData.m */; };
+		9D5DDEE51D506F4D0099A4B1 /* IHFPatientListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5DDEE31D506F4D0099A4B1 /* IHFPatientListVC.m */; };
+		9D5DDEE61D506F4D0099A4B1 /* IHFPatientListVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D5DDEE41D506F4D0099A4B1 /* IHFPatientListVC.xib */; };
+		9D7D822D1D4B077200361D65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D822C1D4B077200361D65 /* main.m */; };
+		9D7D82301D4B077200361D65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D822F1D4B077200361D65 /* AppDelegate.m */; };
+		9D7D82391D4B077200361D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7D82371D4B077200361D65 /* Main.storyboard */; };
+		9D7D823B1D4B077200361D65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D7D823A1D4B077200361D65 /* Assets.xcassets */; };
+		9D7D823E1D4B077200361D65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D7D823C1D4B077200361D65 /* LaunchScreen.storyboard */; };
+		9D7D82491D4B077200361D65 /* PythonServierDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D82481D4B077200361D65 /* PythonServierDemoTests.m */; };
+		9D7D82541D4B077200361D65 /* PythonServierDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D82531D4B077200361D65 /* PythonServierDemoUITests.m */; };
+		9D7D82631D4B07E800361D65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7D82621D4B07E800361D65 /* ViewController.m */; };
+		9DB632471D51CFCF00C29BEC /* IHFNetBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB632461D51CFCF00C29BEC /* IHFNetBase.m */; };
+		9DB6324A1D51D11F00C29BEC /* IHFAccountNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB632491D51D11F00C29BEC /* IHFAccountNet.m */; };
+		9DF444481D5442AF0066576F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF444461D5442AF0066576F /* LoginViewController.m */; };
+		9DF444491D5442AF0066576F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DF444471D5442AF0066576F /* LoginViewController.xib */; };
+		9DF4444C1D5448850066576F /* IHFSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF4444B1D5448850066576F /* IHFSignUpViewController.m */; };
+		9DF4444F1D5458600066576F /* IHFTextFileldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF4444E1D5458600066576F /* IHFTextFileldView.m */; };
+		9DF444521D5467020066576F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF444511D5467020066576F /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D7D82451D4B077200361D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D7D82201D4B077100361D65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D7D82271D4B077200361D65;
+			remoteInfo = PythonServierDemo;
+		};
+		9D7D82501D4B077200361D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D7D82201D4B077100361D65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D7D82271D4B077200361D65;
+			remoteInfo = PythonServierDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FFCF9EA4C354DB15978D644 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6A4B3688FB8BAA311592F666 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7B4EEBB3A079CE00107C43FC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D5D39891D5872EC00AE15D8 /* IHFRetrievePassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFRetrievePassword.h; sourceTree = "<group>"; };
+		9D5D398A1D5872EC00AE15D8 /* IHFRetrievePassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFRetrievePassword.m; sourceTree = "<group>"; };
+		9D5D398D1D588ADA00AE15D8 /* IHFAccountData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFAccountData.h; sourceTree = "<group>"; };
+		9D5D398E1D588ADA00AE15D8 /* IHFAccountData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFAccountData.m; sourceTree = "<group>"; };
+		9D5DDEA81D50408F0099A4B1 /* esCreateTexture.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esCreateTexture.c; sourceTree = "<group>"; };
+		9D5DDEA91D50408F0099A4B1 /* esCreateTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = esCreateTexture.h; sourceTree = "<group>"; };
+		9D5DDEAA1D50408F0099A4B1 /* esShader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esShader.c; sourceTree = "<group>"; };
+		9D5DDEAB1D50408F0099A4B1 /* esShaderStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = esShaderStr.h; sourceTree = "<group>"; };
+		9D5DDEAC1D50408F0099A4B1 /* esShapes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esShapes.c; sourceTree = "<group>"; };
+		9D5DDEAD1D50408F0099A4B1 /* esSharpener.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esSharpener.c; sourceTree = "<group>"; };
+		9D5DDEAE1D50408F0099A4B1 /* esSharpener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = esSharpener.h; sourceTree = "<group>"; };
+		9D5DDEAF1D5040900099A4B1 /* esTransform.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esTransform.c; sourceTree = "<group>"; };
+		9D5DDEB01D5040900099A4B1 /* esUtil.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = esUtil.c; sourceTree = "<group>"; };
+		9D5DDEB11D5040900099A4B1 /* esUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = esUtil.h; sourceTree = "<group>"; };
+		9D5DDEB21D5040900099A4B1 /* ihefeImageLUT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ihefeImageLUT.h; sourceTree = "<group>"; };
+		9D5DDEB31D5040900099A4B1 /* Simple_Texture2D.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Simple_Texture2D.c; sourceTree = "<group>"; };
+		9D5DDEB41D5040900099A4B1 /* IHFMedicImgGLES使用说明.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IHFMedicImgGLES使用说明.h"; sourceTree = "<group>"; };
+		9D5DDEB61D5040900099A4B1 /* FileWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileWrapper.h; sourceTree = "<group>"; };
+		9D5DDEB71D5040900099A4B1 /* FileWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileWrapper.m; sourceTree = "<group>"; };
+		9D5DDEB81D5040900099A4B1 /* GLES_ImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLES_ImageData.h; sourceTree = "<group>"; };
+		9D5DDEB91D5040900099A4B1 /* GLES_ImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLES_ImageData.m; sourceTree = "<group>"; };
+		9D5DDEBA1D5040900099A4B1 /* IHFGLESTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFGLESTools.h; sourceTree = "<group>"; };
+		9D5DDEBB1D5040900099A4B1 /* IHFGLESTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFGLESTools.m; sourceTree = "<group>"; };
+		9D5DDEBC1D5040900099A4B1 /* IHFLinearMeasureVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFLinearMeasureVIew.h; sourceTree = "<group>"; };
+		9D5DDEBD1D5040900099A4B1 /* IHFLinearMeasureVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFLinearMeasureVIew.m; sourceTree = "<group>"; };
+		9D5DDEBE1D5040900099A4B1 /* IHFMyGLKViewController+instance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IHFMyGLKViewController+instance.h"; sourceTree = "<group>"; };
+		9D5DDEBF1D5040900099A4B1 /* IHFMyGLKViewController+instance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IHFMyGLKViewController+instance.m"; sourceTree = "<group>"; };
+		9D5DDEC01D5040900099A4B1 /* IHFMyGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFMyGLKViewController.h; sourceTree = "<group>"; };
+		9D5DDEC11D5040900099A4B1 /* IHFMyGLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFMyGLKViewController.m; sourceTree = "<group>"; };
+		9D5DDEC21D5040900099A4B1 /* UIView+HierarchySupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HierarchySupport.h"; sourceTree = "<group>"; };
+		9D5DDEC31D5040900099A4B1 /* UIView+HierarchySupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HierarchySupport.m"; sourceTree = "<group>"; };
+		9D5DDEC41D5040900099A4B1 /* UIViewController+selfManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+selfManager.h"; sourceTree = "<group>"; };
+		9D5DDEC51D5040900099A4B1 /* UIViewController+selfManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+selfManager.m"; sourceTree = "<group>"; };
+		9D5DDED51D5044C30099A4B1 /* IHFMAccountData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFMAccountData.h; sourceTree = "<group>"; };
+		9D5DDED61D5044C30099A4B1 /* IHFMAccountData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFMAccountData.m; sourceTree = "<group>"; };
+		9D5DDEE21D506F4D0099A4B1 /* IHFPatientListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFPatientListVC.h; sourceTree = "<group>"; };
+		9D5DDEE31D506F4D0099A4B1 /* IHFPatientListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFPatientListVC.m; sourceTree = "<group>"; };
+		9D5DDEE41D506F4D0099A4B1 /* IHFPatientListVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IHFPatientListVC.xib; sourceTree = "<group>"; };
+		9D7D82281D4B077200361D65 /* PythonServierDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PythonServierDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7D822C1D4B077200361D65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D7D822E1D4B077200361D65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D7D822F1D4B077200361D65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D7D82381D4B077200361D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D7D823A1D4B077200361D65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D7D823D1D4B077200361D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D7D823F1D4B077200361D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D7D82441D4B077200361D65 /* PythonServierDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PythonServierDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7D82481D4B077200361D65 /* PythonServierDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PythonServierDemoTests.m; sourceTree = "<group>"; };
+		9D7D824A1D4B077200361D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D7D824F1D4B077200361D65 /* PythonServierDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PythonServierDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7D82531D4B077200361D65 /* PythonServierDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PythonServierDemoUITests.m; sourceTree = "<group>"; };
+		9D7D82551D4B077200361D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D7D82611D4B07E800361D65 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D7D82621D4B07E800361D65 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DB632451D51CFCF00C29BEC /* IHFNetBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFNetBase.h; sourceTree = "<group>"; };
+		9DB632461D51CFCF00C29BEC /* IHFNetBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFNetBase.m; sourceTree = "<group>"; };
+		9DB632481D51D11F00C29BEC /* IHFAccountNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFAccountNet.h; sourceTree = "<group>"; };
+		9DB632491D51D11F00C29BEC /* IHFAccountNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFAccountNet.m; sourceTree = "<group>"; };
+		9DF444451D5442AF0066576F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9DF444461D5442AF0066576F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9DF444471D5442AF0066576F /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		9DF4444A1D5448850066576F /* IHFSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFSignUpViewController.h; sourceTree = "<group>"; };
+		9DF4444B1D5448850066576F /* IHFSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFSignUpViewController.m; sourceTree = "<group>"; };
+		9DF4444D1D5458600066576F /* IHFTextFileldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IHFTextFileldView.h; sourceTree = "<group>"; };
+		9DF4444E1D5458600066576F /* IHFTextFileldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IHFTextFileldView.m; sourceTree = "<group>"; };
+		9DF444501D5467020066576F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		9DF444511D5467020066576F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D7D82251D4B077200361D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34D874BD75615ACCDAF32BAD /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7D82411D4B077200361D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7D824C1D4B077200361D65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A562F618858B21586CC64B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7B4EEBB3A079CE00107C43FC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D5D398C1D588ABC00AE15D8 /* accountData */ = {
+			isa = PBXGroup;
+			children = (
+				9D5D398D1D588ADA00AE15D8 /* IHFAccountData.h */,
+				9D5D398E1D588ADA00AE15D8 /* IHFAccountData.m */,
+			);
+			path = accountData;
+			sourceTree = "<group>";
+		};
+		9D5DDEA61D50408F0099A4B1 /* IHFGLES */ = {
+			isa = PBXGroup;
+			children = (
+				9D5DDEA71D50408F0099A4B1 /* GLES */,
+				9D5DDEB41D5040900099A4B1 /* IHFMedicImgGLES使用说明.h */,
+				9D5DDEB51D5040900099A4B1 /* iOS */,
+			);
+			path = IHFGLES;
+			sourceTree = "<group>";
+		};
+		9D5DDEA71D50408F0099A4B1 /* GLES */ = {
+			isa = PBXGroup;
+			children = (
+				9D5DDEA81D50408F0099A4B1 /* esCreateTexture.c */,
+				9D5DDEA91D50408F0099A4B1 /* esCreateTexture.h */,
+				9D5DDEAA1D50408F0099A4B1 /* esShader.c */,
+				9D5DDEAB1D50408F0099A4B1 /* esShaderStr.h */,
+				9D5DDEAC1D50408F0099A4B1 /* esShapes.c */,
+				9D5DDEAD1D50408F0099A4B1 /* esSharpener.c */,
+				9D5DDEAE1D50408F0099A4B1 /* esSharpener.h */,
+				9D5DDEAF1D5040900099A4B1 /* esTransform.c */,
+				9D5DDEB01D5040900099A4B1 /* esUtil.c */,
+				9D5DDEB11D5040900099A4B1 /* esUtil.h */,
+				9D5DDEB21D5040900099A4B1 /* ihefeImageLUT.h */,
+				9D5DDEB31D5040900099A4B1 /* Simple_Texture2D.c */,
+			);
+			path = GLES;
+			sourceTree = "<group>";
+		};
+		9D5DDEB51D5040900099A4B1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9D5DDEB61D5040900099A4B1 /* FileWrapper.h */,
+				9D5DDEB71D5040900099A4B1 /* FileWrapper.m */,
+				9D5DDEB81D5040900099A4B1 /* GLES_ImageData.h */,
+				9D5DDEB91D5040900099A4B1 /* GLES_ImageData.m */,
+				9D5DDEBA1D5040900099A4B1 /* IHFGLESTools.h */,
+				9D5DDEBB1D5040900099A4B1 /* IHFGLESTools.m */,
+				9D5DDEBC1D5040900099A4B1 /* IHFLinearMeasureVIew.h */,
+				9D5DDEBD1D5040900099A4B1 /* IHFLinearMeasureVIew.m */,
+				9D5DDEBE1D5040900099A4B1 /* IHFMyGLKViewController+instance.h */,
+				9D5DDEBF1D5040900099A4B1 /* IHFMyGLKViewController+instance.m */,
+				9D5DDEC01D5040900099A4B1 /* IHFMyGLKViewController.h */,
+				9D5DDEC11D5040900099A4B1 /* IHFMyGLKViewController.m */,
+				9D5DDEC21D5040900099A4B1 /* UIView+HierarchySupport.h */,
+				9D5DDEC31D5040900099A4B1 /* UIView+HierarchySupport.m */,
+				9D5DDEC41D5040900099A4B1 /* UIViewController+selfManager.h */,
+				9D5DDEC51D5040900099A4B1 /* UIViewController+selfManager.m */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		9D7D821F1D4B077100361D65 = {
+			isa = PBXGroup;
+			children = (
+				9DB632441D51CFA000C29BEC /* IHFNet */,
+				9D5DDEA61D50408F0099A4B1 /* IHFGLES */,
+				9D7D822A1D4B077200361D65 /* PythonServierDemo */,
+				9D7D82471D4B077200361D65 /* PythonServierDemoTests */,
+				9D7D82521D4B077200361D65 /* PythonServierDemoUITests */,
+				9D7D82291D4B077200361D65 /* Products */,
+				B6B5ADDC4703DFE67F086702 /* Pods */,
+				2A562F618858B21586CC64B3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D7D82291D4B077200361D65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D7D82281D4B077200361D65 /* PythonServierDemo.app */,
+				9D7D82441D4B077200361D65 /* PythonServierDemoTests.xctest */,
+				9D7D824F1D4B077200361D65 /* PythonServierDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D7D822A1D4B077200361D65 /* PythonServierDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9DF444501D5467020066576F /* MBProgressHUD.h */,
+				9DF444511D5467020066576F /* MBProgressHUD.m */,
+				9D5D398C1D588ABC00AE15D8 /* accountData */,
+				9DF444441D5442920066576F /* login */,
+				9D7D822E1D4B077200361D65 /* AppDelegate.h */,
+				9D7D822F1D4B077200361D65 /* AppDelegate.m */,
+				9D7D82611D4B07E800361D65 /* ViewController.h */,
+				9D7D82621D4B07E800361D65 /* ViewController.m */,
+				9D5DDED51D5044C30099A4B1 /* IHFMAccountData.h */,
+				9D5DDED61D5044C30099A4B1 /* IHFMAccountData.m */,
+				9D5DDEE21D506F4D0099A4B1 /* IHFPatientListVC.h */,
+				9D5DDEE31D506F4D0099A4B1 /* IHFPatientListVC.m */,
+				9D5DDEE41D506F4D0099A4B1 /* IHFPatientListVC.xib */,
+				9D7D82371D4B077200361D65 /* Main.storyboard */,
+				9D7D823A1D4B077200361D65 /* Assets.xcassets */,
+				9D7D823C1D4B077200361D65 /* LaunchScreen.storyboard */,
+				9D7D823F1D4B077200361D65 /* Info.plist */,
+				9D7D822B1D4B077200361D65 /* Supporting Files */,
+			);
+			path = PythonServierDemo;
+			sourceTree = "<group>";
+		};
+		9D7D822B1D4B077200361D65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D7D822C1D4B077200361D65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9D7D82471D4B077200361D65 /* PythonServierDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D7D82481D4B077200361D65 /* PythonServierDemoTests.m */,
+				9D7D824A1D4B077200361D65 /* Info.plist */,
+			);
+			path = PythonServierDemoTests;
+			sourceTree = "<group>";
+		};
+		9D7D82521D4B077200361D65 /* PythonServierDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D7D82531D4B077200361D65 /* PythonServierDemoUITests.m */,
+				9D7D82551D4B077200361D65 /* Info.plist */,
+			);
+			path = PythonServierDemoUITests;
+			sourceTree = "<group>";
+		};
+		9DB632441D51CFA000C29BEC /* IHFNet */ = {
+			isa = PBXGroup;
+			children = (
+				9DB632451D51CFCF00C29BEC /* IHFNetBase.h */,
+				9DB632461D51CFCF00C29BEC /* IHFNetBase.m */,
+				9DB632481D51D11F00C29BEC /* IHFAccountNet.h */,
+				9DB632491D51D11F00C29BEC /* IHFAccountNet.m */,
+			);
+			path = IHFNet;
+			sourceTree = "<group>";
+		};
+		9DF444441D5442920066576F /* login */ = {
+			isa = PBXGroup;
+			children = (
+				9DF444451D5442AF0066576F /* LoginViewController.h */,
+				9DF444461D5442AF0066576F /* LoginViewController.m */,
+				9DF444471D5442AF0066576F /* LoginViewController.xib */,
+				9DF4444A1D5448850066576F /* IHFSignUpViewController.h */,
+				9DF4444B1D5448850066576F /* IHFSignUpViewController.m */,
+				9D5D39891D5872EC00AE15D8 /* IHFRetrievePassword.h */,
+				9D5D398A1D5872EC00AE15D8 /* IHFRetrievePassword.m */,
+				9DF4444D1D5458600066576F /* IHFTextFileldView.h */,
+				9DF4444E1D5458600066576F /* IHFTextFileldView.m */,
+			);
+			path = login;
+			sourceTree = "<group>";
+		};
+		B6B5ADDC4703DFE67F086702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1FFCF9EA4C354DB15978D644 /* Pods.debug.xcconfig */,
+				6A4B3688FB8BAA311592F666 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D7D82271D4B077200361D65 /* PythonServierDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7D82581D4B077200361D65 /* Build configuration list for PBXNativeTarget "PythonServierDemo" */;
+			buildPhases = (
+				879FC58AC8B7578CF5988DA5 /* Check Pods Manifest.lock */,
+				9D7D82241D4B077200361D65 /* Sources */,
+				9D7D82251D4B077200361D65 /* Frameworks */,
+				9D7D82261D4B077200361D65 /* Resources */,
+				B1B590467106FF0D3D982D30 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PythonServierDemo;
+			productName = PythonServierDemo;
+			productReference = 9D7D82281D4B077200361D65 /* PythonServierDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D7D82431D4B077200361D65 /* PythonServierDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7D825B1D4B077200361D65 /* Build configuration list for PBXNativeTarget "PythonServierDemoTests" */;
+			buildPhases = (
+				9D7D82401D4B077200361D65 /* Sources */,
+				9D7D82411D4B077200361D65 /* Frameworks */,
+				9D7D82421D4B077200361D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D7D82461D4B077200361D65 /* PBXTargetDependency */,
+			);
+			name = PythonServierDemoTests;
+			productName = PythonServierDemoTests;
+			productReference = 9D7D82441D4B077200361D65 /* PythonServierDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D7D824E1D4B077200361D65 /* PythonServierDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D7D825E1D4B077200361D65 /* Build configuration list for PBXNativeTarget "PythonServierDemoUITests" */;
+			buildPhases = (
+				9D7D824B1D4B077200361D65 /* Sources */,
+				9D7D824C1D4B077200361D65 /* Frameworks */,
+				9D7D824D1D4B077200361D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D7D82511D4B077200361D65 /* PBXTargetDependency */,
+			);
+			name = PythonServierDemoUITests;
+			productName = PythonServierDemoUITests;
+			productReference = 9D7D824F1D4B077200361D65 /* PythonServierDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D7D82201D4B077100361D65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "linhua hu";
+				TargetAttributes = {
+					9D7D82271D4B077200361D65 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2AHKDU2ECU;
+					};
+					9D7D82431D4B077200361D65 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9D7D82271D4B077200361D65;
+					};
+					9D7D824E1D4B077200361D65 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 9D7D82271D4B077200361D65;
+					};
+				};
+			};
+			buildConfigurationList = 9D7D82231D4B077100361D65 /* Build configuration list for PBXProject "PythonServierDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D7D821F1D4B077100361D65;
+			productRefGroup = 9D7D82291D4B077200361D65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D7D82271D4B077200361D65 /* PythonServierDemo */,
+				9D7D82431D4B077200361D65 /* PythonServierDemoTests */,
+				9D7D824E1D4B077200361D65 /* PythonServierDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D7D82261D4B077200361D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF444491D5442AF0066576F /* LoginViewController.xib in Resources */,
+				9D7D823E1D4B077200361D65 /* LaunchScreen.storyboard in Resources */,
+				9D7D823B1D4B077200361D65 /* Assets.xcassets in Resources */,
+				9D5DDEE61D506F4D0099A4B1 /* IHFPatientListVC.xib in Resources */,
+				9D7D82391D4B077200361D65 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7D82421D4B077200361D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7D824D1D4B077200361D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		879FC58AC8B7578CF5988DA5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1B590467106FF0D3D982D30 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D7D82241D4B077200361D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DF4444C1D5448850066576F /* IHFSignUpViewController.m in Sources */,
+				9D5DDEC71D5040900099A4B1 /* esShader.c in Sources */,
+				9DF444481D5442AF0066576F /* LoginViewController.m in Sources */,
+				9D5DDED31D5040900099A4B1 /* UIView+HierarchySupport.m in Sources */,
+				9D7D82631D4B07E800361D65 /* ViewController.m in Sources */,
+				9D5DDECA1D5040900099A4B1 /* esTransform.c in Sources */,
+				9D5DDECC1D5040900099A4B1 /* Simple_Texture2D.c in Sources */,
+				9D5DDEC91D5040900099A4B1 /* esSharpener.c in Sources */,
+				9D5DDED11D5040900099A4B1 /* IHFMyGLKViewController+instance.m in Sources */,
+				9DF444521D5467020066576F /* MBProgressHUD.m in Sources */,
+				9D7D82301D4B077200361D65 /* AppDelegate.m in Sources */,
+				9D5DDED41D5040900099A4B1 /* UIViewController+selfManager.m in Sources */,
+				9D5DDECE1D5040900099A4B1 /* GLES_ImageData.m in Sources */,
+				9D7D822D1D4B077200361D65 /* main.m in Sources */,
+				9D5DDEC61D5040900099A4B1 /* esCreateTexture.c in Sources */,
+				9DB632471D51CFCF00C29BEC /* IHFNetBase.m in Sources */,
+				9D5DDEC81D5040900099A4B1 /* esShapes.c in Sources */,
+				9DF4444F1D5458600066576F /* IHFTextFileldView.m in Sources */,
+				9D5DDED71D5044C30099A4B1 /* IHFMAccountData.m in Sources */,
+				9D5D398B1D5872EC00AE15D8 /* IHFRetrievePassword.m in Sources */,
+				9D5DDED01D5040900099A4B1 /* IHFLinearMeasureVIew.m in Sources */,
+				9D5DDECD1D5040900099A4B1 /* FileWrapper.m in Sources */,
+				9DB6324A1D51D11F00C29BEC /* IHFAccountNet.m in Sources */,
+				9D5DDED21D5040900099A4B1 /* IHFMyGLKViewController.m in Sources */,
+				9D5DDECB1D5040900099A4B1 /* esUtil.c in Sources */,
+				9D5D398F1D588ADA00AE15D8 /* IHFAccountData.m in Sources */,
+				9D5DDEE51D506F4D0099A4B1 /* IHFPatientListVC.m in Sources */,
+				9D5DDECF1D5040900099A4B1 /* IHFGLESTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7D82401D4B077200361D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7D82491D4B077200361D65 /* PythonServierDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D7D824B1D4B077200361D65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D7D82541D4B077200361D65 /* PythonServierDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D7D82461D4B077200361D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D7D82271D4B077200361D65 /* PythonServierDemo */;
+			targetProxy = 9D7D82451D4B077200361D65 /* PBXContainerItemProxy */;
+		};
+		9D7D82511D4B077200361D65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D7D82271D4B077200361D65 /* PythonServierDemo */;
+			targetProxy = 9D7D82501D4B077200361D65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D7D82371D4B077200361D65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D7D82381D4B077200361D65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D7D823C1D4B077200361D65 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D7D823D1D4B077200361D65 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D7D82561D4B077200361D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D7D82571D4B077200361D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D7D82591D4B077200361D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FFCF9EA4C354DB15978D644 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = PythonServierDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihefe.PythonServierDemo.PythonServierDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D7D825A1D4B077200361D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A4B3688FB8BAA311592F666 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = PythonServierDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihefe.PythonServierDemo.PythonServierDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D7D825C1D4B077200361D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PythonServierDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihefe.PythonServierDemo.PythonServierDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PythonServierDemo.app/PythonServierDemo";
+			};
+			name = Debug;
+		};
+		9D7D825D1D4B077200361D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PythonServierDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihefe.PythonServierDemo.PythonServierDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PythonServierDemo.app/PythonServierDemo";
+			};
+			name = Release;
+		};
+		9D7D825F1D4B077200361D65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PythonServierDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihefe.PythonServierDemo.PythonServierDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PythonServierDemo;
+			};
+			name = Debug;
+		};
+		9D7D82601D4B077200361D65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PythonServierDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ihefe.PythonServierDemo.PythonServierDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PythonServierDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D7D82231D4B077100361D65 /* Build configuration list for PBXProject "PythonServierDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7D82561D4B077200361D65 /* Debug */,
+				9D7D82571D4B077200361D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D7D82581D4B077200361D65 /* Build configuration list for PBXNativeTarget "PythonServierDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7D82591D4B077200361D65 /* Debug */,
+				9D7D825A1D4B077200361D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D7D825B1D4B077200361D65 /* Build configuration list for PBXNativeTarget "PythonServierDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7D825C1D4B077200361D65 /* Debug */,
+				9D7D825D1D4B077200361D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D7D825E1D4B077200361D65 /* Build configuration list for PBXNativeTarget "PythonServierDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D7D825F1D4B077200361D65 /* Debug */,
+				9D7D82601D4B077200361D65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D7D82201D4B077100361D65 /* Project object */;
+}

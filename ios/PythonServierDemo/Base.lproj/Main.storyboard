@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="75L-O1-U0Z">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="jcj-w5-P7C">
+            <objects>
+                <viewController id="75L-O1-U0Z" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bVr-gF-NRN"/>
+                        <viewControllerLayoutGuide type="bottom" id="gnq-Ol-PKe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="A0C-yF-jer">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nez-z2-d4q">
+                                <rect key="frame" x="66" y="181" width="54" height="30"/>
+                                <state key="normal" title="   zhuce"/>
+                                <connections>
+                                    <action selector="touchBtn:" destination="75L-O1-U0Z" eventType="touchUpInside" id="lbR-V5-7aQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUT-5B-z6u">
+                                <rect key="frame" x="70" y="250" width="47" height="30"/>
+                                <state key="normal" title="denglu"/>
+                                <connections>
+                                    <action selector="denglu:" destination="75L-O1-U0Z" eventType="touchUpInside" id="DLd-7g-chl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mD3-21-dSu">
+                                <rect key="frame" x="73" y="323" width="41" height="30"/>
+                                <state key="normal" title="xiugai"/>
+                                <connections>
+                                    <action selector="changPW:" destination="75L-O1-U0Z" eventType="touchUpInside" id="eHp-ja-hag"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="huidiao" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPY-1y-NuM">
+                                <rect key="frame" x="210" y="259" width="255" height="190"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="callBackLabel" destination="sPY-1y-NuM" id="LSx-pk-hFr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QSC-ot-hc7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-25" y="302"/>
+        </scene>
+    </scenes>
+</document>

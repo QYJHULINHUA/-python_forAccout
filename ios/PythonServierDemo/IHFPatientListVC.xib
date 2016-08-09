@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IHFPatientListVC">
+            <connections>
+                <outlet property="backView" destination="Sl6-XA-RfQ" id="bjI-8z-05f"/>
+                <outlet property="tabelView" destination="tTP-er-gb6" id="vfV-52-7uf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="病人列表" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXM-Ln-SmP">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="50"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="KaT-1R-ynu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sl6-XA-RfQ">
+                    <rect key="frame" x="0.0" y="50" width="600" height="550"/>
+                    <subviews>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tTP-er-gb6">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="550"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </tableView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="tTP-er-gb6" firstAttribute="leading" secondItem="Sl6-XA-RfQ" secondAttribute="leading" id="1H0-yu-i4I"/>
+                        <constraint firstItem="tTP-er-gb6" firstAttribute="top" secondItem="Sl6-XA-RfQ" secondAttribute="top" id="3wo-8G-5tN"/>
+                        <constraint firstAttribute="trailing" secondItem="tTP-er-gb6" secondAttribute="trailing" id="Cs9-pW-jI7"/>
+                        <constraint firstAttribute="bottom" secondItem="tTP-er-gb6" secondAttribute="bottom" id="Lab-UK-x8s"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="cXM-Ln-SmP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="3w4-Ez-bTg"/>
+                <constraint firstAttribute="trailing" secondItem="Sl6-XA-RfQ" secondAttribute="trailing" id="Pv1-Ta-J7I"/>
+                <constraint firstItem="Sl6-XA-RfQ" firstAttribute="top" secondItem="cXM-Ln-SmP" secondAttribute="bottom" id="Uh6-ok-i4k"/>
+                <constraint firstAttribute="bottom" secondItem="Sl6-XA-RfQ" secondAttribute="bottom" id="jbL-PR-whP"/>
+                <constraint firstItem="cXM-Ln-SmP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="pJ6-Mr-jVI"/>
+                <constraint firstItem="Sl6-XA-RfQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="wxF-6B-Ncc"/>
+                <constraint firstAttribute="trailing" secondItem="cXM-Ln-SmP" secondAttribute="trailing" id="zVK-e3-PT6"/>
+            </constraints>
+            <point key="canvasLocation" x="164" y="259"/>
+        </view>
+    </objects>
+</document>
