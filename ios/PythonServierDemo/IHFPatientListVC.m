@@ -60,20 +60,17 @@
     AFHTTPSessionManager *manager = [AFHTTPSessionManager manager];
     manager.responseSerializer.acceptableContentTypes = [NSSet setWithObjects:@"text/html",nil];
     [manager.requestSerializer setValue:@"application/x-www-form-urlencoded; charset=utf-8" forHTTPHeaderField:@"Content-Type"];
-    
-    [manager POST:urlStr parameters:param progress:^(NSProgress * _Nonnull uploadProgress) {
-        
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        
+    [manager POST:urlStr parameters:param success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
         NSDictionary *responseDic = responseObject;
         if ([responseDic isKindOfClass:[NSDictionary class]]) {
             NSArray *dataArr = responseDic[@"data"];
             [weakSelf refreshTableView:dataArr];
         }
-
     } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
         
     }];
+    
+    
 }
 
 - (void)refreshTableView:(NSArray *)dataArr

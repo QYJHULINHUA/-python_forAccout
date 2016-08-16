@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "LoginViewController.h"
+#import "IHFMDicViewController.h"
 #define FRAMEWORK_BUNDLE [NSBundle bundleWithPath:[[NSBundle mainBundle] pathForResource:@"iChat_Resource" ofType:@"bundle"]]
 
 @interface AppDelegate () <UISplitViewControllerDelegate>
@@ -49,6 +50,20 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+- (UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)nowWindow {
+    
+    //    是非支持横竖屏
+    if (_allowRotation) {
+        return UIInterfaceOrientationMaskLandscapeRight;
+        
+    } else{
+        return UIInterfaceOrientationMaskPortrait;
+    }
+    
+}
+
+
 
 
 

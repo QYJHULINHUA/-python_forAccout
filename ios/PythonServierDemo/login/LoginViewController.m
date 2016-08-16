@@ -12,6 +12,7 @@
 #import "MBProgressHUD.h"
 #import "IHFAccountNet.h"
 #import "IHFAccountData.h"
+#import "IHFMainViewController.h"
 
 
 @interface LoginViewController ()
@@ -46,10 +47,17 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
+    _accontView.text = @"18916259088";
+    _passwordView.text = @"123456";
     [super viewWillAppear:animated];
     self.navigationController.navigationBarHidden = YES;
 
     _loginBtn.layer.cornerRadius = 20;
+    
+    
+    NSArray *arr = self.navigationController.viewControllers;
+    
+    NSLog(@"a");
 
 }
 - (IBAction)zcl_forgetPasswordAction:(UIButton *)sender {
@@ -183,7 +191,13 @@
                 }else
                 {
                     [IHFAccountData getShareSingle].accountInfoDic = response;
-                    [weakself showHUD:YES msg:@"登录成功"];
+//                    [weakself showHUD:YES msg:@"登录成功"];
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        [hud hideAnimated:YES];
+                        IHFMainViewController *mainVc = [[IHFMainViewController alloc] init];
+                        [weakself.navigationController pushViewController:mainVc animated:YES];
+                    });
+                    
                 }
                 
             }];

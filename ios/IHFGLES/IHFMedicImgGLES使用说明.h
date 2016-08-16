@@ -18,7 +18,7 @@
 * esShaderStr.h
    该头文件包含绘制图像所需的shader语句。宏定义SHADERSTRING(...) #__VA_ARGS__使得在char数组中写shader语句不需要每行加上双引号以及结尾时加上\n作为换行标识
 * esUtil.h和esUtil.c
-   一种实用的OpenGL ES的工具库，该库中提供了GLES 3.0中使用到的基本共用框架
+   一种实用的OpenGL ES的工具库，该库中提供了GLES 3.0中使用到的基本共用框架r
 * esCreateTexture.h和esCreateTexture.c
    主要包括GLES的用户数据和各种顶点坐标、纹理坐标等。
 * esSharpener.h和esSharpener.c

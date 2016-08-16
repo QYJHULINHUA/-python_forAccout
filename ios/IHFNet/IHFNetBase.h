@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 
 
-#define BASEURL @"http://192.168.15.73:8765"
+#define BASEURL @"http://192.168.15.61:8765"
 
 //>!  网络回调
 typedef void(^IHFMResponseBack)(NSNumber *success,id response);
